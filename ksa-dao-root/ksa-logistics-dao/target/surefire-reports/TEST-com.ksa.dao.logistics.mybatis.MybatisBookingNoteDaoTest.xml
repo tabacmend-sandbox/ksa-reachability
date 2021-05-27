@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="1" failures="0" name="com.ksa.dao.logistics.mybatis.MybatisBookingNoteDaoTest" time="0.015" errors="1" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.vm.version" value="11.0.7+8-LTS"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.7\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Projects\KSA_Prioritize\ksa"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.script" value=""/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.dir" value="C:\Projects\KSA_Prioritize\ksa"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.runtime.version" value="11.0.7+8-LTS"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\ShaiMael\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Program Files\Apache\Maven\bin\..\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-11.0.7\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Microsoft SDKs\Azure\CLI2\wbin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\nodejs\;C:\Program Files\Apache\Maven\bin;C:\Program Files\Apache\Maven\bin;C:\Program Files\Java\jdk-11.0.7\bin;C:\Go\bin;C:\Curl;C:\Program Files\Git\cmd;C:\php;C:\Program Files (x86)\sbt\bin;C:\Program Files (x86)\Ngrok;C:\Program Files\Amazon\AWSCLI\bin\;C:\Program Files (x86)\Yarn\bin\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\ShaiMael\AppData\Local\Programs\Python\Python37-32\Scripts\;C:\Users\ShaiMael\AppData\Local\Programs\Python\Python37-32\;C:\Ruby26-x64\bin;C:\Users\ShaiMael\AppData\Local\Microsoft\WindowsApps;C:\Users\ShaiMael\AppData\Roaming\npm;C:\Gradle\gradle-5.4.1\bin;C:\Users\ShaiMael\go\bin;C:\Users\ShaiMael\AppData\Local\GitHubDesktop\bin;C:\Users\ShaiMael\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\ShaiMael\AppData\Local\Yarn\bin;C:\Users\ShaiMael\.dotnet\tools;."/>
+    <property name="maven.conf" value="C:\Program Files\Apache\Maven\bin\../conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="55.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="C:\Program Files\Apache\Maven\bin\..\lib\jansi-native"/>
+    <property name="user.home" value="C:\Users\ShaiMael"/>
+    <property name="user.timezone" value="Asia/Jerusalem"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="java.class.path" value="C:\Program Files\Apache\Maven\bin\..\boot\plexus-classworlds-2.6.0.jar"/>
+    <property name="user.name" value="ShaiMael"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher install"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-11.0.7"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="11.0.7"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="sun.stderr.encoding" value="cp437"/>
+    <property name="maven.home" value="C:\Program Files\Apache\Maven\bin\.."/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2020-04-14"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="sun.stdout.encoding" value="cp437"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="com.ksa.dao.logistics.mybatis.MybatisBookingNoteDaoTest" name="testCrudBookingNote" time="0.013">
+    <error message="
+### Error updating database.  Cause: org.h2.jdbc.JdbcSQLException: Column &quot;CARGO_NAME_ENG&quot; not found; SQL statement:
+INSERT INTO KSA_LOGISTICS_BOOKINGNOTE
+						(  ID, 	CODE, 	TYPE, TYPE_SUB,		SERIAL_NUMBER, 	CUSTOMER_ID, INVOICE_NUMBER, CREATED_DATE,  	CHARGE_DATE,					
+						SALER_ID, CREATOR_ID, CARRIER_ID, SHIPPING_AGENT_ID, AGENT_ID,
+						CARGO_NAME, CARGO_NAME_ENG, CARGO_PRICE, HS_CODE, KEY_CONTENT,
+                        CARGO_NOTE, CARGO_CONTAINER, CARGO_DESCRIPTION, SHIPPING_MARK, VOLUMN, WEIGHT, QUANTITY, UNIT,QUANTITY_DESCRIPTION,
+						TITLE, MAWB, HAWB, SHIPPER_ID, CONSIGNEE_ID, NOTIFY_ID,
+						DEPARTURE, DEPARTURE_PORT, DEPARTURE_DATE, DESTINATION, DESTINATION_PORT, DESTINATION_DATE, LOADING_PORT, DISCHARGE_PORT, DELIVER_DATE,
+						ROUTE, ROUTE_NAME, ROUTE_CODE,
+						CUSTOMS_BROKER_ID,
+						CUSTOMS_CODE, CUSTOMS_DATE, RETURN_CODE, RETURN_DATE, RETURN_DATE2,
+						TAX_CODE, TAX_DATE1, EXPRESS_CODE, TAX_DATE2, 
+						VEHICLE_TEAM_ID, VEHICLE_TYPE, VEHICLE_NUMBER, STATE )
+		VALUES ( 	?,  ?, 	?, 	?,	?, ?,?,?,?,
+			 		?, ?, ?, ?, ?, 
+			 		?,?,?,?,?,
+                    ?,?,?,?, ?, ?, ?,?,?,
+			 		?, ?, ?, ?,?,?,
+			 		?,?, ?,?,?,?,?, ?, ?, 
+			 		?,?,?,
+			 		?,
+			 		?,?,?,?,?,
+			 		?,?,?,?,
+			 		?,?,?,? ) [42122-162]
+### SQL: INSERT INTO KSA_LOGISTICS_BOOKINGNOTE       (  ID,  CODE,  TYPE, TYPE_SUB,  SERIAL_NUMBER,  CUSTOMER_ID, INVOICE_NUMBER, CREATED_DATE,   CHARGE_DATE,            SALER_ID, CREATOR_ID, CARRIER_ID, SHIPPING_AGENT_ID, AGENT_ID,       CARGO_NAME, CARGO_NAME_ENG, CARGO_PRICE, HS_CODE, KEY_CONTENT,                         CARGO_NOTE, CARGO_CONTAINER, CARGO_DESCRIPTION, SHIPPING_MARK, VOLUMN, WEIGHT, QUANTITY, UNIT,QUANTITY_DESCRIPTION,       TITLE, MAWB, HAWB, SHIPPER_ID, CONSIGNEE_ID, NOTIFY_ID,       DEPARTURE, DEPARTURE_PORT, DEPARTURE_DATE, DESTINATION, DESTINATION_PORT, DESTINATION_DATE, LOADING_PORT, DISCHARGE_PORT, DELIVER_DATE,       ROUTE, ROUTE_NAME, ROUTE_CODE,       CUSTOMS_BROKER_ID,       CUSTOMS_CODE, CUSTOMS_DATE, RETURN_CODE, RETURN_DATE, RETURN_DATE2,       TAX_CODE, TAX_DATE1, EXPRESS_CODE, TAX_DATE2,        VEHICLE_TEAM_ID, VEHICLE_TYPE, VEHICLE_NUMBER, STATE )   VALUES (  ?,  ?,  ?,  ?, ?, ?,?,?,?,       ?, ?, ?, ?, ?,        ?,?,?,?,?,                     ?,?,?,?, ?, ?, ?,?,?,       ?, ?, ?, ?,?,?,       ?,?, ?,?,?,?,?, ?, ?,        ?,?,?,       ?,       ?,?,?,?,?,       ?,?,?,?,       ?,?,?,? )
+### Cause: org.h2.jdbc.JdbcSQLException: Column &quot;CARGO_NAME_ENG&quot; not found; SQL statement:
+INSERT INTO KSA_LOGISTICS_BOOKINGNOTE
+						(  ID, 	CODE, 	TYPE, TYPE_SUB,		SERIAL_NUMBER, 	CUSTOMER_ID, INVOICE_NUMBER, CREATED_DATE,  	CHARGE_DATE,					
+						SALER_ID, CREATOR_ID, CARRIER_ID, SHIPPING_AGENT_ID, AGENT_ID,
+						CARGO_NAME, CARGO_NAME_ENG, CARGO_PRICE, HS_CODE, KEY_CONTENT,
+                        CARGO_NOTE, CARGO_CONTAINER, CARGO_DESCRIPTION, SHIPPING_MARK, VOLUMN, WEIGHT, QUANTITY, UNIT,QUANTITY_DESCRIPTION,
+						TITLE, MAWB, HAWB, SHIPPER_ID, CONSIGNEE_ID, NOTIFY_ID,
+						DEPARTURE, DEPARTURE_PORT, DEPARTURE_DATE, DESTINATION, DESTINATION_PORT, DESTINATION_DATE, LOADING_PORT, DISCHARGE_PORT, DELIVER_DATE,
+						ROUTE, ROUTE_NAME, ROUTE_CODE,
+						CUSTOMS_BROKER_ID,
+						CUSTOMS_CODE, CUSTOMS_DATE, RETURN_CODE, RETURN_DATE, RETURN_DATE2,
+						TAX_CODE, TAX_DATE1, EXPRESS_CODE, TAX_DATE2, 
+						VEHICLE_TEAM_ID, VEHICLE_TYPE, VEHICLE_NUMBER, STATE )
+		VALUES ( 	?,  ?, 	?, 	?,	?, ?,?,?,?,
+			 		?, ?, ?, ?, ?, 
+			 		?,?,?,?,?,
+                    ?,?,?,?, ?, ?, ?,?,?,
+			 		?, ?, ?, ?,?,?,
+			 		?,?, ?,?,?,?,?, ?, ?, 
+			 		?,?,?,
+			 		?,
+			 		?,?,?,?,?,
+			 		?,?,?,?,
+			 		?,?,?,? ) [42122-162]
+; bad SQL grammar []; nested exception is org.h2.jdbc.JdbcSQLException: Column &quot;CARGO_NAME_ENG&quot; not found; SQL statement:
+INSERT INTO KSA_LOGISTICS_BOOKINGNOTE
+						(  ID, 	CODE, 	TYPE, TYPE_SUB,		SERIAL_NUMBER, 	CUSTOMER_ID, INVOICE_NUMBER, CREATED_DATE,  	CHARGE_DATE,					
+						SALER_ID, CREATOR_ID, CARRIER_ID, SHIPPING_AGENT_ID, AGENT_ID,
+						CARGO_NAME, CARGO_NAME_ENG, CARGO_PRICE, HS_CODE, KEY_CONTENT,
+                        CARGO_NOTE, CARGO_CONTAINER, CARGO_DESCRIPTION, SHIPPING_MARK, VOLUMN, WEIGHT, QUANTITY, UNIT,QUANTITY_DESCRIPTION,
+						TITLE, MAWB, HAWB, SHIPPER_ID, CONSIGNEE_ID, NOTIFY_ID,
+						DEPARTURE, DEPARTURE_PORT, DEPARTURE_DATE, DESTINATION, DESTINATION_PORT, DESTINATION_DATE, LOADING_PORT, DISCHARGE_PORT, DELIVER_DATE,
+						ROUTE, ROUTE_NAME, ROUTE_CODE,
+						CUSTOMS_BROKER_ID,
+						CUSTOMS_CODE, CUSTOMS_DATE, RETURN_CODE, RETURN_DATE, RETURN_DATE2,
+						TAX_CODE, TAX_DATE1, EXPRESS_CODE, TAX_DATE2, 
+						VEHICLE_TEAM_ID, VEHICLE_TYPE, VEHICLE_NUMBER, STATE )
+		VALUES ( 	?,  ?, 	?, 	?,	?, ?,?,?,?,
+			 		?, ?, ?, ?, ?, 
+			 		?,?,?,?,?,
+                    ?,?,?,?, ?, ?, ?,?,?,
+			 		?, ?, ?, ?,?,?,
+			 		?,?, ?,?,?,?,?, ?, ?, 
+			 		?,?,?,
+			 		?,
+			 		?,?,?,?,?,
+			 		?,?,?,?,
+			 		?,?,?,? ) [42122-162]" type="org.springframework.jdbc.BadSqlGrammarException">org.springframework.jdbc.BadSqlGrammarException: 
+### Error updating database.  Cause: org.h2.jdbc.JdbcSQLException: Column &quot;CARGO_NAME_ENG&quot; not found; SQL statement:
+INSERT INTO KSA_LOGISTICS_BOOKINGNOTE
+						(  ID, 	CODE, 	TYPE, TYPE_SUB,		SERIAL_NUMBER, 	CUSTOMER_ID, INVOICE_NUMBER, CREATED_DATE,  	CHARGE_DATE,					
+						SALER_ID, CREATOR_ID, CARRIER_ID, SHIPPING_AGENT_ID, AGENT_ID,
+						CARGO_NAME, CARGO_NAME_ENG, CARGO_PRICE, HS_CODE, KEY_CONTENT,
+                        CARGO_NOTE, CARGO_CONTAINER, CARGO_DESCRIPTION, SHIPPING_MARK, VOLUMN, WEIGHT, QUANTITY, UNIT,QUANTITY_DESCRIPTION,
+						TITLE, MAWB, HAWB, SHIPPER_ID, CONSIGNEE_ID, NOTIFY_ID,
+						DEPARTURE, DEPARTURE_PORT, DEPARTURE_DATE, DESTINATION, DESTINATION_PORT, DESTINATION_DATE, LOADING_PORT, DISCHARGE_PORT, DELIVER_DATE,
+						ROUTE, ROUTE_NAME, ROUTE_CODE,
+						CUSTOMS_BROKER_ID,
+						CUSTOMS_CODE, CUSTOMS_DATE, RETURN_CODE, RETURN_DATE, RETURN_DATE2,
+						TAX_CODE, TAX_DATE1, EXPRESS_CODE, TAX_DATE2, 
+						VEHICLE_TEAM_ID, VEHICLE_TYPE, VEHICLE_NUMBER, STATE )
+		VALUES ( 	?,  ?, 	?, 	?,	?, ?,?,?,?,
+			 		?, ?, ?, ?, ?, 
+			 		?,?,?,?,?,
+                    ?,?,?,?, ?, ?, ?,?,?,
+			 		?, ?, ?, ?,?,?,
+			 		?,?, ?,?,?,?,?, ?, ?, 
+			 		?,?,?,
+			 		?,
+			 		?,?,?,?,?,
+			 		?,?,?,?,
+			 		?,?,?,? ) [42122-162]
+### SQL: INSERT INTO KSA_LOGISTICS_BOOKINGNOTE       (  ID,  CODE,  TYPE, TYPE_SUB,  SERIAL_NUMBER,  CUSTOMER_ID, INVOICE_NUMBER, CREATED_DATE,   CHARGE_DATE,            SALER_ID, CREATOR_ID, CARRIER_ID, SHIPPING_AGENT_ID, AGENT_ID,       CARGO_NAME, CARGO_NAME_ENG, CARGO_PRICE, HS_CODE, KEY_CONTENT,                         CARGO_NOTE, CARGO_CONTAINER, CARGO_DESCRIPTION, SHIPPING_MARK, VOLUMN, WEIGHT, QUANTITY, UNIT,QUANTITY_DESCRIPTION,       TITLE, MAWB, HAWB, SHIPPER_ID, CONSIGNEE_ID, NOTIFY_ID,       DEPARTURE, DEPARTURE_PORT, DEPARTURE_DATE, DESTINATION, DESTINATION_PORT, DESTINATION_DATE, LOADING_PORT, DISCHARGE_PORT, DELIVER_DATE,       ROUTE, ROUTE_NAME, ROUTE_CODE,       CUSTOMS_BROKER_ID,       CUSTOMS_CODE, CUSTOMS_DATE, RETURN_CODE, RETURN_DATE, RETURN_DATE2,       TAX_CODE, TAX_DATE1, EXPRESS_CODE, TAX_DATE2,        VEHICLE_TEAM_ID, VEHICLE_TYPE, VEHICLE_NUMBER, STATE )   VALUES (  ?,  ?,  ?,  ?, ?, ?,?,?,?,       ?, ?, ?, ?, ?,        ?,?,?,?,?,                     ?,?,?,?, ?, ?, ?,?,?,       ?, ?, ?, ?,?,?,       ?,?, ?,?,?,?,?, ?, ?,        ?,?,?,       ?,       ?,?,?,?,?,       ?,?,?,?,       ?,?,?,? )
+### Cause: org.h2.jdbc.JdbcSQLException: Column &quot;CARGO_NAME_ENG&quot; not found; SQL statement:
+INSERT INTO KSA_LOGISTICS_BOOKINGNOTE
+						(  ID, 	CODE, 	TYPE, TYPE_SUB,		SERIAL_NUMBER, 	CUSTOMER_ID, INVOICE_NUMBER, CREATED_DATE,  	CHARGE_DATE,					
+						SALER_ID, CREATOR_ID, CARRIER_ID, SHIPPING_AGENT_ID, AGENT_ID,
+						CARGO_NAME, CARGO_NAME_ENG, CARGO_PRICE, HS_CODE, KEY_CONTENT,
+                        CARGO_NOTE, CARGO_CONTAINER, CARGO_DESCRIPTION, SHIPPING_MARK, VOLUMN, WEIGHT, QUANTITY, UNIT,QUANTITY_DESCRIPTION,
+						TITLE, MAWB, HAWB, SHIPPER_ID, CONSIGNEE_ID, NOTIFY_ID,
+						DEPARTURE, DEPARTURE_PORT, DEPARTURE_DATE, DESTINATION, DESTINATION_PORT, DESTINATION_DATE, LOADING_PORT, DISCHARGE_PORT, DELIVER_DATE,
+						ROUTE, ROUTE_NAME, ROUTE_CODE,
+						CUSTOMS_BROKER_ID,
+						CUSTOMS_CODE, CUSTOMS_DATE, RETURN_CODE, RETURN_DATE, RETURN_DATE2,
+						TAX_CODE, TAX_DATE1, EXPRESS_CODE, TAX_DATE2, 
+						VEHICLE_TEAM_ID, VEHICLE_TYPE, VEHICLE_NUMBER, STATE )
+		VALUES ( 	?,  ?, 	?, 	?,	?, ?,?,?,?,
+			 		?, ?, ?, ?, ?, 
+			 		?,?,?,?,?,
+                    ?,?,?,?, ?, ?, ?,?,?,
+			 		?, ?, ?, ?,?,?,
+			 		?,?, ?,?,?,?,?, ?, ?, 
+			 		?,?,?,
+			 		?,
+			 		?,?,?,?,?,
+			 		?,?,?,?,
+			 		?,?,?,? ) [42122-162]
+; bad SQL grammar []; nested exception is org.h2.jdbc.JdbcSQLException: Column &quot;CARGO_NAME_ENG&quot; not found; SQL statement:
+INSERT INTO KSA_LOGISTICS_BOOKINGNOTE
+						(  ID, 	CODE, 	TYPE, TYPE_SUB,		SERIAL_NUMBER, 	CUSTOMER_ID, INVOICE_NUMBER, CREATED_DATE,  	CHARGE_DATE,					
+						SALER_ID, CREATOR_ID, CARRIER_ID, SHIPPING_AGENT_ID, AGENT_ID,
+						CARGO_NAME, CARGO_NAME_ENG, CARGO_PRICE, HS_CODE, KEY_CONTENT,
+                        CARGO_NOTE, CARGO_CONTAINER, CARGO_DESCRIPTION, SHIPPING_MARK, VOLUMN, WEIGHT, QUANTITY, UNIT,QUANTITY_DESCRIPTION,
+						TITLE, MAWB, HAWB, SHIPPER_ID, CONSIGNEE_ID, NOTIFY_ID,
+						DEPARTURE, DEPARTURE_PORT, DEPARTURE_DATE, DESTINATION, DESTINATION_PORT, DESTINATION_DATE, LOADING_PORT, DISCHARGE_PORT, DELIVER_DATE,
+						ROUTE, ROUTE_NAME, ROUTE_CODE,
+						CUSTOMS_BROKER_ID,
+						CUSTOMS_CODE, CUSTOMS_DATE, RETURN_CODE, RETURN_DATE, RETURN_DATE2,
+						TAX_CODE, TAX_DATE1, EXPRESS_CODE, TAX_DATE2, 
+						VEHICLE_TEAM_ID, VEHICLE_TYPE, VEHICLE_NUMBER, STATE )
+		VALUES ( 	?,  ?, 	?, 	?,	?, ?,?,?,?,
+			 		?, ?, ?, ?, ?, 
+			 		?,?,?,?,?,
+                    ?,?,?,?, ?, ?, ?,?,?,
+			 		?, ?, ?, ?,?,?,
+			 		?,?, ?,?,?,?,?, ?, ?, 
+			 		?,?,?,
+			 		?,
+			 		?,?,?,?,?,
+			 		?,?,?,?,
+			 		?,?,?,? ) [42122-162]
+	at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.doTranslate(SQLErrorCodeSQLExceptionTranslator.java:233)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:72)
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:71)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:365)
+	at com.sun.proxy.$Proxy6.insert(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.insert(SqlSessionTemplate.java:237)
+	at com.ksa.dao.logistics.mybatis.MybatisBookingNoteDao.insertBookingNote(MybatisBookingNoteDao.java:24)
+	at com.ksa.dao.logistics.mybatis.MybatisBookingNoteDaoTest.testCrudBookingNote(MybatisBookingNoteDaoTest.java:105)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:44)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:41)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:20)
+	at org.junit.runners.BlockJUnit4ClassRunner.runNotIgnored(BlockJUnit4ClassRunner.java:79)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:71)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:49)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:193)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:52)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:191)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:42)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:184)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:28)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:236)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:24)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:193)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:52)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:191)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:42)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:184)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:236)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:157)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:136)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:127)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:52)
+	at org.apache.maven.surefire.junitcore.JUnitCoreProvider.invoke(JUnitCoreProvider.java:112)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:164)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:110)
+	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:175)
+	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcessWhenForked(SurefireStarter.java:107)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:68)
+Caused by: org.h2.jdbc.JdbcSQLException: Column &quot;CARGO_NAME_ENG&quot; not found; SQL statement:
+INSERT INTO KSA_LOGISTICS_BOOKINGNOTE
+						(  ID, 	CODE, 	TYPE, TYPE_SUB,		SERIAL_NUMBER, 	CUSTOMER_ID, INVOICE_NUMBER, CREATED_DATE,  	CHARGE_DATE,					
+						SALER_ID, CREATOR_ID, CARRIER_ID, SHIPPING_AGENT_ID, AGENT_ID,
+						CARGO_NAME, CARGO_NAME_ENG, CARGO_PRICE, HS_CODE, KEY_CONTENT,
+                        CARGO_NOTE, CARGO_CONTAINER, CARGO_DESCRIPTION, SHIPPING_MARK, VOLUMN, WEIGHT, QUANTITY, UNIT,QUANTITY_DESCRIPTION,
+						TITLE, MAWB, HAWB, SHIPPER_ID, CONSIGNEE_ID, NOTIFY_ID,
+						DEPARTURE, DEPARTURE_PORT, DEPARTURE_DATE, DESTINATION, DESTINATION_PORT, DESTINATION_DATE, LOADING_PORT, DISCHARGE_PORT, DELIVER_DATE,
+						ROUTE, ROUTE_NAME, ROUTE_CODE,
+						CUSTOMS_BROKER_ID,
+						CUSTOMS_CODE, CUSTOMS_DATE, RETURN_CODE, RETURN_DATE, RETURN_DATE2,
+						TAX_CODE, TAX_DATE1, EXPRESS_CODE, TAX_DATE2, 
+						VEHICLE_TEAM_ID, VEHICLE_TYPE, VEHICLE_NUMBER, STATE )
+		VALUES ( 	?,  ?, 	?, 	?,	?, ?,?,?,?,
+			 		?, ?, ?, ?, ?, 
+			 		?,?,?,?,?,
+                    ?,?,?,?, ?, ?, ?,?,?,
+			 		?, ?, ?, ?,?,?,
+			 		?,?, ?,?,?,?,?, ?, ?, 
+			 		?,?,?,
+			 		?,
+			 		?,?,?,?,?,
+			 		?,?,?,?,
+			 		?,?,?,? ) [42122-162]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:329)
+	at org.h2.message.DbException.get(DbException.java:169)
+	at org.h2.message.DbException.get(DbException.java:146)
+	at org.h2.table.Table.getColumn(Table.java:596)
+	at org.h2.command.Parser.parseColumn(Parser.java:798)
+	at org.h2.command.Parser.parseColumnList(Parser.java:783)
+	at org.h2.command.Parser.parseInsert(Parser.java:963)
+	at org.h2.command.Parser.parsePrepared(Parser.java:375)
+	at org.h2.command.Parser.parse(Parser.java:279)
+	at org.h2.command.Parser.parse(Parser.java:251)
+	at org.h2.command.Parser.prepareCommand(Parser.java:217)
+	at org.h2.engine.Session.prepareLocal(Session.java:415)
+	at org.h2.engine.Session.prepareCommand(Session.java:364)
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1121)
+	at org.h2.jdbc.JdbcPreparedStatement.&lt;init&gt;(JdbcPreparedStatement.java:71)
+	at org.h2.jdbc.JdbcConnection.prepareStatement(JdbcConnection.java:267)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.apache.ibatis.logging.jdbc.ConnectionLogger.invoke(ConnectionLogger.java:53)
+	at com.sun.proxy.$Proxy10.prepareStatement(Unknown Source)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.instantiateStatement(PreparedStatementHandler.java:72)
+	at org.apache.ibatis.executor.statement.BaseStatementHandler.prepare(BaseStatementHandler.java:82)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.prepare(RoutingStatementHandler.java:54)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.apache.ibatis.plugin.Invocation.proceed(Invocation.java:46)
+	at com.ksa.dao.mybatis.plugin.PaginationPlugin.intercept(PaginationPlugin.java:97)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:57)
+	at com.sun.proxy.$Proxy9.prepare(Unknown Source)
+	at org.apache.ibatis.executor.SimpleExecutor.prepareStatement(SimpleExecutor.java:70)
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:44)
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:108)
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:75)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:145)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.insert(DefaultSqlSession.java:134)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:355)
+	... 44 more
+</error>
+    <system-out>DEBUG 10:51:35 [main]
+	java.sql.Connection:debug 
+	ooo Using Connection [conn10: url=jdbc:h2:mem: user=]
+DEBUG 10:51:35 [main]
+	java.sql.Connection:debug 
+	==&gt;  Preparing: INSERT INTO KSA_LOGISTICS_BOOKINGNOTE ( ID, CODE, TYPE, TYPE_SUB, SERIAL_NUMBER, CUSTOMER_ID, INVOICE_NUMBER, CREATED_DATE, CHARGE_DATE, SALER_ID, CREATOR_ID, CARRIER_ID, SHIPPING_AGENT_ID, AGENT_ID, CARGO_NAME, CARGO_NAME_ENG, CARGO_PRICE, HS_CODE, KEY_CONTENT, CARGO_NOTE, CARGO_CONTAINER, CARGO_DESCRIPTION, SHIPPING_MARK, VOLUMN, WEIGHT, QUANTITY, UNIT,QUANTITY_DESCRIPTION, TITLE, MAWB, HAWB, SHIPPER_ID, CONSIGNEE_ID, NOTIFY_ID, DEPARTURE, DEPARTURE_PORT, DEPARTURE_DATE, DESTINATION, DESTINATION_PORT, DESTINATION_DATE, LOADING_PORT, DISCHARGE_PORT, DELIVER_DATE, ROUTE, ROUTE_NAME, ROUTE_CODE, CUSTOMS_BROKER_ID, CUSTOMS_CODE, CUSTOMS_DATE, RETURN_CODE, RETURN_DATE, RETURN_DATE2, TAX_CODE, TAX_DATE1, EXPRESS_CODE, TAX_DATE2, VEHICLE_TEAM_ID, VEHICLE_TYPE, VEHICLE_NUMBER, STATE ) VALUES ( ?, ?, ?, ?, ?, ?,?,?,?, ?, ?, ?, ?, ?, ?,?,?,?,?, ?,?,?,?, ?, ?, ?,?,?, ?, ?, ?, ?,?,?, ?,?, ?,?,?,?,?, ?, ?, ?,?,?, ?, ?,?,?,?,?, ?,?,?,?, ?,?,?,? ) 
+DEBUG 10:51:35 [main]
+	com.ksa.dao.mybatis.plugin.PaginationPlugin:debug 
+	Initialize pagination dialect implements success.
+DEBUG 10:51:35 [main]
+	com.ksa.dao.mybatis.plugin.PaginationPlugin:debug 
+	Set PaginationPlugin properties.
+</system-out>
+  </testcase>
+</testsuite>

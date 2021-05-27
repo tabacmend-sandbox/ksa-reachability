@@ -1,0 +1,561 @@
+[INFO] [2020-10-04 15:59:33,479 +0300[ - UnifiedAgent version (pluginVersion) : 20.8.1.1
+[INFO] [2020-10-04 15:59:34,334 +0300[ - Port must be set or greater than 0
+[INFO] [2020-10-04 15:59:34,630 +0300[ - 
+------------------------------------------------------------------------
+-------------------- Start: Fetch Configuration ------------------------
+------------------------------------------------------------------------
+[INFO] [2020-10-04 15:59:34,644 +0300[ - 
+------------------------------------------------------------------------
+-------------------- End: Fetch Configuration --------------------------
+------------------------------------------------------------------------
+[INFO] [2020-10-04 15:59:34,858 +0300[ - 
+##### general #####
+wss.url=https://app-eu.whitesourcesoftware.com/agent
+resolveAllDependencies=false
+requireKnownSha1=false
+projectTag=
+projectName=ksa-bd-dao
+productName=KSA_EUA_NEW_Webinar
+offline=false
+includes=**/*.jar
+forceUpdate=false
+forceCheckAllDependencies=false
+excludes=**/*sources.jar
+enableImpactAnalysis=true
+configFilePath=C:\Projects\KSA_Prioritize\whitesource-fs-agent-java.config
+checkPolicies=false
+appPath=C:/Projects/KSA_Prioritize/ksa/ksa-dao-root/ksa-bd-dao/target/ksa-bd-dao-3.9.0.jar
+apiKey=******
+#whiteSourceFolderPath=.
+#userKey=
+#updateType=OVERRIDE
+#updateInventory=true
+#updateEmptyProject=true
+#scanReportTimeoutMinutes=10
+#scanReportFilenameFormat=project_with_timestamp
+#scanPackageManager=false
+#scanComment=
+#requesterEmail=
+#recommendationDetector=false
+#projectVersion=
+#projectToken=
+#projectPerFolderIncludes=*
+#projectPerFolderExcludes=
+#projectPerFolder=false
+#productVersion=
+#productToken=
+#offline.zip=false
+#offline.prettyJson=true
+#log.level=info
+#ignoreSourceFiles=false
+#iaLanguage=
+#generateScanReport=false
+#generateProjectDetailsJson=false
+#forceUpdate.failBuildOnPolicyViolation=false
+#failErrorLevel=DEFAULT
+#excludeDependenciesFromNodes=
+#euaVul=euaVul.json
+#euaRes=euaRes.json
+#euaOffline=
+#euaDep=euaDep.json
+#docker.scanContainers=false
+#analyzeMultiModule=
+#analyzeFrameworksReference=analyzeFrameworks.txt
+#analyzeFrameworks=false
+
+#####  #####
+ignoreEuaNotices=ALL
+
+##### ANT #####
+#ant.resolveDependencies=false
+#ant.pathIdIncludes=
+#ant.external.parameters=
+
+##### archive #####
+#archiveIncludes=
+#archiveExtractionDepth=0
+#archiveExcludes=
+
+##### artifactory #####
+#artifactory.userPassword=
+#artifactory.userName=
+#artifactory.url=
+#artifactory.repoKeys=
+#artifactory.includes=.*.*
+#artifactory.excludes=
+#artifactory.enableScan=false
+#artifactory.accessToken=
+
+##### bazel #####
+#bazel.runPreStep=false
+#bazel.resolveDependencies=false
+
+##### bower #####
+#bower.runPreStep=false
+#bower.resolveDependencies=false
+#bower.ignoreSourceFiles=false
+
+##### cabal #####
+#haskell.resolveDependencies=false
+
+##### cargo #####
+#cargo.runPreStep=false
+#cargo.resolveDependencies=false
+#cargo.ignoreSourceFiles=true
+
+##### cocoapods #####
+#cocoapods.runPreStep=false
+#cocoapods.resolveDependencies=false
+#cocoapods.ignoreSourceFiles=true
+
+##### docker #####
+#docker.scanTarFiles=false
+#docker.scanImages=false
+#docker.scan.maxImages=0
+#docker.pull.tags=
+#docker.pull.maxImages=10
+#docker.pull.images=
+#docker.pull.force=false
+#docker.pull.enable=false
+#docker.pull.digest=
+#docker.projectNameFormat=default
+#docker.login.sudo=true
+#docker.layers=false
+#docker.includes=.*.*
+#docker.includeSingleScan=
+#docker.excludes=
+#docker.delete.force=false
+#docker.containerIncludes=.*.*
+#docker.containerExcludes=
+
+##### docker artifactory #####
+#docker.artifactory.userPassword=
+#docker.artifactory.userName=
+#docker.artifactory.url=
+#docker.artifactory.repositoriesNames=
+#docker.artifactory.pullUrl=
+#docker.artifactory.enable=false
+#docker.artifactory.dockerAccessMethod= 
+
+##### docker aws #####
+#docker.aws.registryIds=
+#docker.aws.region=east
+#docker.aws.enable=false
+
+##### docker azure #####
+#docker.azure.userPassword=
+#docker.azure.userName=
+#docker.azure.registryNames=
+#docker.azure.registryAuthenticationParameters=
+#docker.azure.enable=false
+#docker.azure.authenticationType=UserAccount
+
+##### docker google containers #####
+#docker.gcr.repositories=
+#docker.gcr.enable=false
+#docker.gcr.account=
+
+##### docker hub #####
+#docker.hub.userPassword=
+#docker.hub.userName=
+#docker.hub.organizationsNames=
+#docker.hub.enabled=false
+#docker.hub.accessToken=
+
+##### environment #####
+followSymbolicLinks=true
+case.sensitive.glob=false
+
+##### go #####
+#go.resolveDependencies=false
+#go.ignoreSourceFiles=false
+#go.gogradle.enableTaskAlias=false
+#go.glide.ignoreTestPackages=true
+#go.dependencyManager=
+#go.collectDependenciesAtRuntime=false
+
+##### gradle #####
+gradle.runPreStep=false
+gradle.resolveDependencies=true
+gradle.aggregateModules=true
+#gradle.wrapperPath=
+#gradle.runAssembleCommand=true
+#gradle.preferredEnvironment=gradle
+#gradle.multiModule.applyProjectVersion=false
+#gradle.localRepositoryPath=
+#gradle.includedScopes=
+#gradle.includedConfigurations=
+#gradle.includeModules=
+#gradle.ignoredScopes=
+#gradle.ignoredConfigurations=
+#gradle.ignoreSourceFiles=false
+#gradle.excludeModules=
+#gradle.additionalArguments=
+
+##### hex #####
+#hex.runPreStep=false
+#hex.resolveDependencies=false
+#hex.ignoreSourceFiles=true
+#hex.aggregateModules=false
+
+##### html #####
+#html.resolveDependencies=false
+
+##### maven #####
+maven.runPreStep=false
+maven.resolveDependencies=true
+maven.ignoredScopes=None
+maven.ignoreMvnTreeErrors=false
+maven.aggregateModules=true
+#maven.projectNameFromDependencyFile=false
+#maven.multiModule.applyProjectVersion=false
+#maven.maxCacheFolderSize=
+#maven.m2RepositoryPath=
+#maven.ignoreSourceFiles=false
+#maven.ignorePomModules=true
+#maven.environmentPath=
+#maven.downloadMissingDependencies=true
+#maven.additionalArguments=
+
+##### npm #####
+#npm.yarnProject=false
+#npm.yarn.frozenLockfile=false
+#npm.timeoutDependenciesCollectorInSeconds=60
+#npm.runPreStep=false
+#npm.resolveMainPackageJsonOnly=false
+#npm.resolveLockFile=false
+#npm.resolveGlobalPackages=false
+#npm.resolveDependencies=false
+#npm.resolveAdditionalDependencies=false
+#npm.removeDuplicateDependencies=true
+#npm.projectNameFromDependencyFile=false
+#npm.includeDevDependencies=false
+#npm.ignoreSourceFiles=true
+#npm.ignoreScripts=false
+#npm.ignoreNpmLsErrors=false
+#npm.ignoreJavaScriptFiles=true
+#npm.ignoreDirectoryPatterns=example,examples,.ws_bower,test
+#npm.identifyByNameAndVersion=false
+#npm.failOnNpmLsErrors=
+#npm.accessToken=
+
+##### nuget #####
+#nuget.runPreStep=false
+#nuget.restoreDependencies=false
+#nuget.resolvePackagesConfigFiles=true
+#nuget.resolveNuspecFiles=true
+#nuget.resolveDependencies=false
+#nuget.resolveCsProjFiles=true
+#nuget.resolveAssetsFiles=true
+#nuget.preferredEnvironment=
+#nuget.packagesDirectory=
+#nuget.ignoreSourceFiles=true
+
+##### ocaml #####
+#ocaml.switchName=
+#ocaml.runPreStep=false
+#ocaml.resolveDependencies=false
+#ocaml.ignoredScopes=with-test,with-doc
+#ocaml.ignoreSourceFiles=false
+#ocaml.aggregateModules=false
+
+##### paket #####
+#paket.runPreStep=false
+#paket.resolveDependencies=false
+#paket.ignoredGroups=
+#paket.ignoreSourceFiles=true
+#paket.exePath=
+
+##### php #####
+#php.runPreStep=false
+#php.resolveDependencies=false
+#php.includeDevDependencies=false
+#php.ignoreSourceFiles=true
+
+##### python #####
+#python.runPoetryPreStep=false
+#python.runPipenvPreStep=false
+#python.resolveSetupPyFiles=false
+#python.resolvePipEditablePackages=false
+#python.resolveHierarchyTree=true
+#python.resolveGlobalPackages=false
+#python.resolveDependencies=false
+#python.requirementsFileIncludes=
+#python.pipenvDevDependencies=false
+#python.pipPath=pip
+#python.path=python
+#python.localPackagePathsToInstall=
+#python.isEmptyEnvironment=false
+#python.installVirtualenv=false
+#python.indexUrl=
+#python.includePoetryDevDependencies=false
+#python.ignoreSourceFiles=true
+#python.ignorePipInstallErrors=false
+#python.IgnorePipenvInstallErrors=false
+
+##### r_language #####
+#r.runPreStep=false
+#r.resolveDependencies=false
+#r.packageManager=packrat
+#r.ignoreSourceFiles=true
+#r.cranMirrorUrl=
+
+##### ruby #####
+#ruby.runBundleInstall=false
+#ruby.resolveDependencies=false
+#ruby.overwriteGemFile=false
+#ruby.installMissingGems=false
+#ruby.ignoreSourceFiles=true
+
+##### sbt #####
+sbt.targetFolder=
+#sbt.runPreStep=false
+#sbt.resolveDependencies=false
+#sbt.includedScopes=compile,runtime
+#sbt.ignoreSourceFiles=false
+#sbt.aggregateModules=false
+
+##### scm #####
+#scm.url=
+#scm.tag=
+#scm.branch=
+
+##### serverless #####
+#serverless.scanFunctions=false
+#serverless.region=
+#serverless.provider=aws-lambda
+#serverless.maxFunctions=10
+#serverless.includes=
+#serverless.excludes=
+
+[DEBUG] [2020-10-04 15:59:36,502 +0300[ - Available processors (cores): 	8
+Free memory (Mb): 	45
+Max memory (Mb): 	6082
+Total memory (Mb): 	382
+Used memory (Mb): 	336
+
+[INFO] [2020-10-04 15:59:36,536 +0300[ - Starting analysis
+[INFO] [2020-10-04 15:59:36,537 +0300[ - Scanning directories [C:\Projects\KSA_Prioritize\ksa\ksa-dao-root\ksa-bd-dao] for package dependencies (may take a few minutes)
+[INFO] [2020-10-04 15:59:36,538 +0300[ - Included file types: **/*.jar
+[INFO] [2020-10-04 15:59:36,539 +0300[ - Excluded file types: **/*sources.jar
+[INFO] [2020-10-04 15:59:36,542 +0300[ - 
+------------------------------------------------------------------------
+-------------------- Start: Scan Files Matching Includes Pattern -------
+------------------------------------------------------------------------
+[DEBUG] [2020-10-04 15:59:36,542 +0300[ - Scanning C:\Projects\KSA_Prioritize\ksa\ksa-dao-root\ksa-bd-dao
+[DEBUG] [2020-10-04 15:59:36,641 +0300[ - Dependency file found location: C:\Projects\KSA_Prioritize\ksa\ksa-dao-root\ksa-bd-dao\pom.xml
+[INFO] [2020-10-04 15:59:37,215 +0300[ - Attempting to resolve dependencies
+[INFO] [2020-10-04 15:59:37,225 +0300[ - 
+------------------------------------------------------------------------
+-------------------- Start: Pre-Step And Resolve Dependencies ----------
+------------------------------------------------------------------------
+[DEBUG] [2020-10-04 15:59:37,241 +0300[ - FilesFrom: MavenDependencyResolver, Dependency file found location: C:\Projects\KSA_Prioritize\ksa\ksa-dao-root\ksa-bd-dao\pom.xml
+[DEBUG] [2020-10-04 15:59:37,359 +0300[ - found folders:
+
+[DEBUG] [2020-10-04 15:59:37,361 +0300[ - C:\Projects\KSA_Prioritize\ksa\ksa-dao-root
+[DEBUG] [2020-10-04 15:59:37,362 +0300[ - 
+
+[DEBUG] [2020-10-04 15:59:37,450 +0300[ - 
+
+[DEBUG] [2020-10-04 15:59:37,455 +0300[ - Finishing reduce dependencies
+[INFO] [2020-10-04 15:59:37,464 +0300[ - Trying to resolve MAVEN dependencies
+[DEBUG] [2020-10-04 15:59:37,488 +0300[ - CommandLineProcess - executeProcessCommand - start execute command 'cmd /c jdeps.exe -version' in '.'
+[DEBUG] [2020-10-04 15:59:38,627 +0300[ - CommandLineProcess - executeProcessCommand - start execute command 'cmd /c mvn -v' in '.'
+[DEBUG] [2020-10-04 15:59:41,831 +0300[ - Command result output lines for 'cmd /c mvn -v':
+[DEBUG] [2020-10-04 15:59:41,832 +0300[ - Read line #1: Apache Maven 3.6.1 (d66c9c0b3152b2e69ee9bac180bb8fcc8e6af555; 2019-04-04T22:00:29+03:00)
+[DEBUG] [2020-10-04 15:59:41,834 +0300[ - Read line #2: Maven home: C:\Program Files\Apache\Maven\bin\..
+[DEBUG] [2020-10-04 15:59:41,838 +0300[ - Read line #3: Java version: 11.0.7, vendor: Oracle Corporation, runtime: C:\Program Files\Java\jdk-11.0.7
+[DEBUG] [2020-10-04 15:59:41,839 +0300[ - Read line #4: Default locale: en_US, platform encoding: Cp1252
+[DEBUG] [2020-10-04 15:59:41,842 +0300[ - Read line #5: OS name: "windows 10", version: "10.0", arch: "amd64", family: "windows"
+[DEBUG] [2020-10-04 15:59:41,845 +0300[ - MAVEN installation status: true
+[DEBUG] [2020-10-04 15:59:41,845 +0300[ - The command was run under C:\Projects\KSA_Prioritize\ksa\ksa-dao-root\ksa-bd-dao\.
+[INFO] [2020-10-04 15:59:41,845 +0300[ - topFolder = C:\Projects\KSA_Prioritize\ksa\ksa-dao-root\ksa-bd-dao
+[DEBUG] [2020-10-04 15:59:41,846 +0300[ - topFolder = C:\Projects\KSA_Prioritize\ksa\ksa-dao-root\ksa-bd-dao
+[DEBUG] [2020-10-04 15:59:41,865 +0300[ - CommandLineProcess - executeProcessCommand - start execute command 'cmd /c mvn -v' in 'C:\Projects\KSA_Prioritize\ksa\ksa-dao-root\ksa-bd-dao'
+[DEBUG] [2020-10-04 15:59:43,781 +0300[ - Command result output lines for 'cmd /c mvn -v':
+[DEBUG] [2020-10-04 15:59:43,782 +0300[ - Read line #1: Apache Maven 3.6.1 (d66c9c0b3152b2e69ee9bac180bb8fcc8e6af555; 2019-04-04T22:00:29+03:00)
+[DEBUG] [2020-10-04 15:59:43,782 +0300[ - Read line #2: Maven home: C:\Program Files\Apache\Maven\bin\..
+[DEBUG] [2020-10-04 15:59:43,783 +0300[ - Read line #3: Java version: 11.0.7, vendor: Oracle Corporation, runtime: C:\Program Files\Java\jdk-11.0.7
+[DEBUG] [2020-10-04 15:59:43,783 +0300[ - Read line #4: Default locale: en_US, platform encoding: Cp1252
+[DEBUG] [2020-10-04 15:59:43,783 +0300[ - Read line #5: OS name: "windows 10", version: "10.0", arch: "amd64", family: "windows"
+[DEBUG] [2020-10-04 15:59:43,787 +0300[ - Maven : [Apache Maven 3.6.1 (d66c9c0b3152b2e69ee9bac180bb8fcc8e6af555; 2019-04-04T22:00:29+03:00), Maven home: C:\Program Files\Apache\Maven\bin\.., Java version: 11.0.7, vendor: Oracle Corporation, runtime: C:\Program Files\Java\jdk-11.0.7, Default locale: en_US, platform encoding: Cp1252, OS name: "windows 10", version: "10.0", arch: "amd64", family: "windows"]
+[DEBUG] [2020-10-04 15:59:43,792 +0300[ - CommandLineProcess - executeProcessCommand - start execute command 'cmd /c mvn -T1 dependency:tree -DoutputFile=whitesource_mvn_dependency_tree.txt -B' in 'C:\Projects\KSA_Prioritize\ksa\ksa-dao-root\ksa-bd-dao'
+[DEBUG] [2020-10-04 16:00:24,139 +0300[ - Command result output lines for 'cmd /c mvn -T1 dependency:tree -DoutputFile=whitesource_mvn_dependency_tree.txt -B':
+[DEBUG] [2020-10-04 16:00:24,142 +0300[ - Read line #1: [INFO] Scanning for projects...
+[DEBUG] [2020-10-04 16:00:24,143 +0300[ - Read line #2: [INFO] 
+[DEBUG] [2020-10-04 16:00:24,143 +0300[ - Read line #3: [INFO] -------------------------< com.ksa:ksa-bd-dao >-------------------------
+[DEBUG] [2020-10-04 16:00:24,144 +0300[ - Read line #4: [INFO] Building ksa-bd-dao 3.9.0
+[DEBUG] [2020-10-04 16:00:24,144 +0300[ - Read line #5: [INFO] --------------------------------[ jar ]---------------------------------
+[DEBUG] [2020-10-04 16:00:24,144 +0300[ - Read line #6: [INFO] 
+[DEBUG] [2020-10-04 16:00:24,145 +0300[ - Read line #7: [INFO] --- maven-dependency-plugin:2.8:tree (default-cli) @ ksa-bd-dao ---
+[DEBUG] [2020-10-04 16:00:24,145 +0300[ - Read line #8: [INFO] Wrote dependency tree to: C:\Projects\KSA_Prioritize\ksa\ksa-dao-root\ksa-bd-dao\whitesource_mvn_dependency_tree.txt
+[DEBUG] [2020-10-04 16:00:24,146 +0300[ - Read line #9: [INFO] ------------------------------------------------------------------------
+[DEBUG] [2020-10-04 16:00:24,146 +0300[ - Read line #10: [INFO] BUILD SUCCESS
+[DEBUG] [2020-10-04 16:00:24,147 +0300[ - Read line #11: [INFO] ------------------------------------------------------------------------
+[DEBUG] [2020-10-04 16:00:24,147 +0300[ - Read line #12: [INFO] Total time:  16.741 s
+[DEBUG] [2020-10-04 16:00:24,147 +0300[ - Read line #13: [INFO] Finished at: 2020-10-04T16:00:22+03:00
+[DEBUG] [2020-10-04 16:00:24,147 +0300[ - Read line #14: [INFO] ------------------------------------------------------------------------
+[INFO] [2020-10-04 16:00:24,157 +0300[ - Start parsing pom files
+[INFO] [2020-10-04 16:00:24,158 +0300[ - Reading maven dependencies tree output file 'C:\Projects\KSA_Prioritize\ksa\ksa-dao-root\ksa-bd-dao\whitesource_mvn_dependency_tree.txt'
+[INFO] [2020-10-04 16:00:24,180 +0300[ - com.ksa:ksa-bd-dao:jar:3.9.0
+[INFO] [2020-10-04 16:00:24,181 +0300[ - +- com.ksa:ksa-core:jar:3.9.0:compile
+[INFO] [2020-10-04 16:00:24,182 +0300[ - |  +- org.springframework:spring-core:jar:3.1.1.RELEASE:compile
+[INFO] [2020-10-04 16:00:24,182 +0300[ - |  |  +- org.springframework:spring-asm:jar:3.1.1.RELEASE:compile
+[INFO] [2020-10-04 16:00:24,183 +0300[ - |  |  \- commons-logging:commons-logging:jar:1.1.1:compile
+[INFO] [2020-10-04 16:00:24,183 +0300[ - |  +- org.springframework:spring-context:jar:3.1.1.RELEASE:compile
+[INFO] [2020-10-04 16:00:24,184 +0300[ - |  |  +- org.springframework:spring-aop:jar:3.1.1.RELEASE:compile
+[INFO] [2020-10-04 16:00:24,184 +0300[ - |  |  |  \- aopalliance:aopalliance:jar:1.0:compile
+[INFO] [2020-10-04 16:00:24,185 +0300[ - |  |  +- org.springframework:spring-beans:jar:3.1.1.RELEASE:compile
+[INFO] [2020-10-04 16:00:24,185 +0300[ - |  |  \- org.springframework:spring-expression:jar:3.1.1.RELEASE:compile
+[INFO] [2020-10-04 16:00:24,185 +0300[ - |  \- commons-lang:commons-lang:jar:2.6:compile
+[INFO] [2020-10-04 16:00:24,186 +0300[ - +- com.ksa:ksa-dao-context:jar:3.9.0:compile
+[INFO] [2020-10-04 16:00:24,186 +0300[ - |  +- org.mybatis:mybatis:jar:3.1.1:compile
+[INFO] [2020-10-04 16:00:24,186 +0300[ - |  \- org.mybatis:mybatis-spring:jar:1.1.1:compile
+[INFO] [2020-10-04 16:00:24,187 +0300[ - |     +- org.springframework:spring-tx:jar:3.1.1.RELEASE:compile
+[INFO] [2020-10-04 16:00:24,187 +0300[ - |     \- org.springframework:spring-jdbc:jar:3.1.1.RELEASE:compile
+[INFO] [2020-10-04 16:00:24,188 +0300[ - +- com.ksa:ksa-debug:jar:3.9.0:test
+[INFO] [2020-10-04 16:00:24,188 +0300[ - |  +- commons-dbcp:commons-dbcp:jar:1.4:test
+[INFO] [2020-10-04 16:00:24,189 +0300[ - |  |  \- commons-pool:commons-pool:jar:1.5.4:test
+[INFO] [2020-10-04 16:00:24,189 +0300[ - |  +- com.h2database:h2:jar:1.3.162:test
+[INFO] [2020-10-04 16:00:24,189 +0300[ - |  +- mysql:mysql-connector-java:jar:5.1.18:test
+[INFO] [2020-10-04 16:00:24,189 +0300[ - |  \- org.freemarker:freemarker:jar:2.3.18:test
+[INFO] [2020-10-04 16:00:24,190 +0300[ - +- org.slf4j:slf4j-api:jar:1.6.1:compile
+[INFO] [2020-10-04 16:00:24,190 +0300[ - +- junit:junit:jar:4.8.2:test
+[INFO] [2020-10-04 16:00:24,191 +0300[ - +- org.slf4j:slf4j-log4j12:jar:1.6.1:test
+[INFO] [2020-10-04 16:00:24,191 +0300[ - \- log4j:log4j:jar:1.2.16:test
+[INFO] [2020-10-04 16:00:24,238 +0300[ - End parsing pom files , found : ksa-bd-dao
+[INFO] [2020-10-04 16:00:24,239 +0300[ - The following maven scopes will be ignored : [None]
+[DEBUG] [2020-10-04 16:00:24,246 +0300[ - converting node to dependency :ksa-core
+[DEBUG] [2020-10-04 16:00:24,250 +0300[ - converting node to dependency :spring-core
+[DEBUG] [2020-10-04 16:00:24,251 +0300[ - converting node to dependency :spring-asm
+[DEBUG] [2020-10-04 16:00:24,251 +0300[ - converting node to dependency :commons-logging
+[DEBUG] [2020-10-04 16:00:24,252 +0300[ - converting node to dependency :spring-context
+[DEBUG] [2020-10-04 16:00:24,253 +0300[ - converting node to dependency :spring-aop
+[DEBUG] [2020-10-04 16:00:24,254 +0300[ - converting node to dependency :aopalliance
+[DEBUG] [2020-10-04 16:00:24,254 +0300[ - converting node to dependency :spring-beans
+[DEBUG] [2020-10-04 16:00:24,256 +0300[ - converting node to dependency :spring-expression
+[DEBUG] [2020-10-04 16:00:24,257 +0300[ - converting node to dependency :commons-lang
+[DEBUG] [2020-10-04 16:00:24,258 +0300[ - converting node to dependency :ksa-dao-context
+[DEBUG] [2020-10-04 16:00:24,259 +0300[ - converting node to dependency :mybatis
+[DEBUG] [2020-10-04 16:00:24,260 +0300[ - converting node to dependency :mybatis-spring
+[DEBUG] [2020-10-04 16:00:24,261 +0300[ - converting node to dependency :spring-tx
+[DEBUG] [2020-10-04 16:00:24,261 +0300[ - converting node to dependency :spring-jdbc
+[DEBUG] [2020-10-04 16:00:24,262 +0300[ - converting node to dependency :ksa-debug
+[DEBUG] [2020-10-04 16:00:24,263 +0300[ - converting node to dependency :commons-dbcp
+[DEBUG] [2020-10-04 16:00:24,274 +0300[ - converting node to dependency :commons-pool
+[DEBUG] [2020-10-04 16:00:24,278 +0300[ - converting node to dependency :h2
+[DEBUG] [2020-10-04 16:00:24,283 +0300[ - converting node to dependency :mysql-connector-java
+[DEBUG] [2020-10-04 16:00:24,290 +0300[ - converting node to dependency :freemarker
+[DEBUG] [2020-10-04 16:00:24,292 +0300[ - converting node to dependency :slf4j-api
+[DEBUG] [2020-10-04 16:00:24,294 +0300[ - converting node to dependency :junit
+[DEBUG] [2020-10-04 16:00:24,295 +0300[ - converting node to dependency :slf4j-log4j12
+[DEBUG] [2020-10-04 16:00:24,296 +0300[ - converting node to dependency :log4j
+[DEBUG] [2020-10-04 16:00:24,459 +0300[ - Project/Module coordinates: Coordinates@d503781c[groupId= com.ksa,artifactId= ksa-bd-dao,version= 3.9.0 ]
+[DEBUG] [2020-10-04 16:00:24,460 +0300[ - Total project direct dependencies found : 7
+[DEBUG] [2020-10-04 16:00:24,462 +0300[ - ProjectInfo direct dependency added : 7
+[INFO] [2020-10-04 16:00:24,571 +0300[ - 
+------------------------------------------------------------------------
+-------------------- End: Pre-Step And Resolve Dependencies ------------
+------------------------------------------------------------------------
+[DEBUG] [2020-10-04 16:00:24,577 +0300[ - total resolved projects =1
+[INFO] [2020-10-04 16:00:24,578 +0300[ - Scanning directories [C:\Projects\KSA_Prioritize\ksa\ksa-dao-root\ksa-bd-dao] for matching source/binary file types (may take a few minutes)
+[DEBUG] [2020-10-04 16:00:24,579 +0300[ - Scanning C:\Projects\KSA_Prioritize\ksa\ksa-dao-root\ksa-bd-dao
+[DEBUG] [2020-10-04 16:00:24,715 +0300[ - File/Folder Excluded: target\ksa-bd-dao-3.9.0-sources.jar
+[DEBUG] [2020-10-04 16:00:24,715 +0300[ - Dependency file found location: C:\Projects\KSA_Prioritize\ksa\ksa-dao-root\ksa-bd-dao\target\ksa-bd-dao-3.9.0.jar
+[INFO] [2020-10-04 16:00:24,749 +0300[ - Total files found according to the includes/excludes pattern: 1
+[INFO] [2020-10-04 16:00:26,764 +0300[ - 
+------------------------------------------------------------------------
+-------------------- End: Scan Files Matching Includes Pattern ---------
+------------------------------------------------------------------------
+[INFO] [2020-10-04 16:00:26,765 +0300[ - Finished analyzing Files
+[DEBUG] [2020-10-04 16:00:26,765 +0300[ - Available processors (cores): 	8
+Free memory (Mb): 	35
+Max memory (Mb): 	6082
+Total memory (Mb): 	382
+Used memory (Mb): 	346
+
+[INFO] [2020-10-04 16:00:32,532 +0300[ - Initializing WhiteSource Client
+[DEBUG] [2020-10-04 16:00:32,533 +0300[ - Setting project tags
+[INFO] [2020-10-04 16:00:32,537 +0300[ - Service URL is https://app-eu.whitesourcesoftware.com/agent
+[INFO] [2020-10-04 16:00:33,195 +0300[ - UpdateType set to OVERRIDE 
+[INFO] [2020-10-04 16:00:33,196 +0300[ - Effective Usage Analysis version: 2020.8.1.921
+[INFO] [2020-10-04 16:00:33,197 +0300[ - 
+------------------------------------------------------------------------
+-------------------- Start: Effective Usage Analysis -------------------
+------------------------------------------------------------------------
+[INFO] [2020-10-04 16:00:33,264 +0300[ - Starting analysis for: C:/Projects/KSA_Prioritize/ksa/ksa-dao-root/ksa-bd-dao/target/ksa-bd-dao-3.9.0.jar
+[INFO] [2020-10-04 16:00:33,268 +0300[ - --------------------Effective Usage Analysis----------------------
+
+[INFO] [2020-10-04 16:01:54,702 +0300[ - Analysis finished (0:01:20)                                         
+
+[INFO] [2020-10-04 16:01:54,703 +0300[ - SUMMARY
+[INFO] [2020-10-04 16:01:54,704 +0300[ - ----------------------------------------
+
+[INFO] [2020-10-04 16:01:54,708 +0300[ - Issues encountered during analysis:
+[EUA280] CVE-2017-3586 mysql-connector-java 5.1.18 (85dfedad243dc0303ad7ae3a323c39421d220690)
+[EUA280] CVE-2020-2934 mysql-connector-java 5.1.18 (85dfedad243dc0303ad7ae3a323c39421d220690)
+[EUA280] CVE-2020-9488 log4j 1.2.16 (7999a63bfccbc7c247a9aea10d83d4272bd492c6)
+[EUA280] CVE-2020-2875 mysql-connector-java 5.1.18 (85dfedad243dc0303ad7ae3a323c39421d220690)
+[EUA280] CVE-2017-3589 mysql-connector-java 5.1.18 (85dfedad243dc0303ad7ae3a323c39421d220690)
+[EUA280] CVE-2020-2933 mysql-connector-java 5.1.18 (85dfedad243dc0303ad7ae3a323c39421d220690)
+[EUA280] CVE-2019-2692 mysql-connector-java 5.1.18 (85dfedad243dc0303ad7ae3a323c39421d220690)
+[EUA280] CVE-2017-3523 mysql-connector-java 5.1.18 (85dfedad243dc0303ad7ae3a323c39421d220690)
+[EUA280] CVE-2019-17571 log4j 1.2.16 (7999a63bfccbc7c247a9aea10d83d4272bd492c6)
+[INFO] [2020-10-04 16:01:54,709 +0300[ - ------------------------------------------------------------------
+
+[INFO] [2020-10-04 16:01:54,725 +0300[ - Got impact analysis result from server
+[INFO] [2020-10-04 16:01:54,726 +0300[ - 
+------------------------------------------------------------------------
+-------------------- End: Effective Usage Analysis ---------------------
+------------------------------------------------------------------------
+[INFO] [2020-10-04 16:01:54,727 +0300[ - Sending Update
+[INFO] [2020-10-04 16:01:54,728 +0300[ - 
+------------------------------------------------------------------------
+-------------------- Start: Update Inventory ---------------------------
+------------------------------------------------------------------------
+[INFO] [2020-10-04 16:02:02,682 +0300[ - 
+------------------------------------------------------------------------
+-------------------- End: Update Inventory -----------------------------
+------------------------------------------------------------------------
+[INFO] [2020-10-04 16:02:02,683 +0300[ - Inventory update results for Shai Demo
+[INFO] [2020-10-04 16:02:02,684 +0300[ - Newly created projects:
+[INFO] [2020-10-04 16:02:02,684 +0300[ - # ksa-bd-dao
+[INFO] [2020-10-04 16:02:02,684 +0300[ - No projects were updated.
+[INFO] [2020-10-04 16:02:02,684 +0300[ - Project name: ksa-bd-dao, URL: https://app-eu.whitesourcesoftware.com/Wss/WSS.html#!project;id=420687
+[INFO] [2020-10-04 16:02:02,685 +0300[ - Support Token: 1ffc70892b5bc429582f2b8fec08d90ce1601816514963
+[DEBUG] [2020-10-04 16:02:02,686 +0300[ - Process finished with exit code SUCCESS (Inventory update results for Shai Demo
+Newly created projects:
+ksa-bd-dao
+No projects were updated.
+
+Project name: ksa-bd-dao, project URL:https://app-eu.whitesourcesoftware.com/Wss/WSS.html#!project;id=420687
+Support Token: 1ffc70892b5bc429582f2b8fec08d90ce1601816514963)
+[INFO] [2020-10-04 16:02:02,686 +0300[ - Log files are found at: .\whitesource\Sun-Oct-04-2020-15.59.33
+[DEBUG] [2020-10-04 16:02:02,727 +0300[ - Setting AnalysisFailures in SystemExit: [EUA280] CVE-2017-3586 mysql-connector-java 5.1.18 (85dfedad243dc0303ad7ae3a323c39421d220690),[EUA280] CVE-2020-2934 mysql-connector-java 5.1.18 (85dfedad243dc0303ad7ae3a323c39421d220690),[EUA280] CVE-2020-9488 log4j 1.2.16 (7999a63bfccbc7c247a9aea10d83d4272bd492c6),[EUA280] CVE-2020-2875 mysql-connector-java 5.1.18 (85dfedad243dc0303ad7ae3a323c39421d220690),[EUA280] CVE-2017-3589 mysql-connector-java 5.1.18 (85dfedad243dc0303ad7ae3a323c39421d220690),[EUA280] CVE-2020-2933 mysql-connector-java 5.1.18 (85dfedad243dc0303ad7ae3a323c39421d220690),[EUA280] CVE-2019-2692 mysql-connector-java 5.1.18 (85dfedad243dc0303ad7ae3a323c39421d220690),[EUA280] CVE-2017-3523 mysql-connector-java 5.1.18 (85dfedad243dc0303ad7ae3a323c39421d220690),[EUA280] CVE-2019-17571 log4j 1.2.16 (7999a63bfccbc7c247a9aea10d83d4272bd492c6)
+[INFO] [2020-10-04 16:02:02,732 +0300[ - 
+------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------- WhiteSource Scan Summary: --------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
+======================================================================================================================================================
+Scan Origin: Local File System
+======================================================================================================================================================
+Step                                              Completion Status               Elapsed                  Comments
+======================================================================================================================================================
+Fetch Configuration                                  COMPLETED                  00:00:01.153               --------
+Pre-Step And Resolve Dependencies                    COMPLETED                  00:00:45.945               25 total dependencies (25 unique)
+   MAVEN                                             COMPLETED                  00:00:45.945               25 total dependencies (25 unique)
+Scan Files Matching Includes Pattern                 COMPLETED                  00:00:02.835               1 source/binary files
+   jar                                               COMPLETED                    --------                 1 source/binary files
+Effective Usage Analysis                             COMPLETED                  00:01:21.529               --------
+Update Inventory                                     COMPLETED                  00:00:07.954               0 updated projects
+
+======================================================================================================================================================
+Elapsed running time:                                                           00:02:19.416
+======================================================================================================================================================
+Process finished with exit code SUCCESS (0)
+
+======================================================================================================================================================
+All non [EUA000] return code:
+======================================================================================================================================================
+MODULE(1):  ksa-bd-dao ,[EUA280] CVE-2017-3586 mysql-connector-java 5.1.18 (85dfedad243dc0303ad7ae3a323c39421d220690); [EUA280] CVE-2020-2934 mysql-connector-java 5.1.18 (85dfedad243dc0303ad7ae3a323c39421d220690); [EUA280] CVE-2020-9488 log4j 1.2.16 (7999a63bfccbc7c247a9aea10d83d4272bd492c6); [EUA280] CVE-2020-2875 mysql-connector-java 5.1.18 (85dfedad243dc0303ad7ae3a323c39421d220690); [EUA280] CVE-2017-3589 mysql-connector-java 5.1.18 (85dfedad243dc0303ad7ae3a323c39421d220690); [EUA280] CVE-2020-2933 mysql-connector-java 5.1.18 (85dfedad243dc0303ad7ae3a323c39421d220690); [EUA280] CVE-2019-2692 mysql-connector-java 5.1.18 (85dfedad243dc0303ad7ae3a323c39421d220690); [EUA280] CVE-2017-3523 mysql-connector-java 5.1.18 (85dfedad243dc0303ad7ae3a323c39421d220690); [EUA280] CVE-2019-17571 log4j 1.2.16 (7999a63bfccbc7c247a9aea10d83d4272bd492c6); 
+
