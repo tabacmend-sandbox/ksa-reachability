@@ -1,0 +1,37 @@
+name: whitesource_scan
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+  workflow_dispatch:
+  
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: "build project"
+        run: mvn clean install -DskipTests=true
+
+      - name: "run WS Scan"
+        run: |
+          echo "Downloading unified agent"
+          curl -LJO https://github.com/whitesource/unified-agent-distribution/releases/latest/download/wss-unified-agent.jar
+          
+          export WS_APIKEY=${{ secrets.APIKEY }}
+          export WS_USREKEY=${{ secrets.USERKEY }}
+          export WS_WSS_URL=https://saas-eu.whitesourcesoftware.com/agent
+          export WS_RESOVEALLDEPENENCIES=false
+          export WS_MAVEN_RESOVEDEPENENCIES=true
+          #nice to have since it is java project
+          export WS_INCLUDES="**/*.jar"
+          export WS_EXCLUDES="**/*sources.jar **/*javadoc.jar"
+          export WS_SCANCOMMENT="${{ github.event.head_commit.message }}"
+          
+          java -jar wss-unified-agent.jar -product "${{ env.GITHUB_REPOSITORY }}" -project "${{ env.GITHUB_WORKFLOW }}"
+          
+          if [[ $? -ne 0 ]]; then
+            echo "something went wrong"
+          fi
