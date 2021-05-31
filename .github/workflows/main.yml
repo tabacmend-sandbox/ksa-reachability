@@ -29,9 +29,9 @@ jobs:
           export WS_INCLUDES="**/*.jar"
           export WS_EXCLUDES="**/*sources.jar **/*javadoc.jar"
           export WS_SCANCOMMENT="${{ github.event.head_commit.message }}"
-          echo "-product $GITHUB_REPOSITORY -project $GITHUB_WORKFLOW"
+          #echo "-product $GITHUB_REPOSITORY -project $GITHUB_WORKFLOW"
           
-          java -jar wss-unified-agent.jar -product "${{ env.GITHUB_REPOSITORY }}" -project "${{ env.GITHUB_WORKFLOW }}"
+          java -jar wss-unified-agent.jar -product "$GITHUB_REPOSITORY" -project "$GITHUB_WORKFLOW"
           
           if [[ $? -ne 0 ]]; then
             echo "something went wrong"
