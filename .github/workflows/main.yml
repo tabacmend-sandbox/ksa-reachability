@@ -13,7 +13,7 @@ jobs:
       - uses: actions/checkout@v2
 
       - name: "build project"
-        run: mvn clean install -DskipTests=true
+        run: echo mvn clean install -DskipTests=true
 
       - name: "run WS Scan"
         run: |
@@ -29,6 +29,7 @@ jobs:
           export WS_INCLUDES="**/*.jar"
           export WS_EXCLUDES="**/*sources.jar **/*javadoc.jar"
           export WS_SCANCOMMENT="${{ github.event.head_commit.message }}"
+          echo "-product ${{ env.GITHUB_REPOSITORY }} -project ${{ env.GITHUB_WORKFLOW }}"
           
           java -jar wss-unified-agent.jar -product "${{ env.GITHUB_REPOSITORY }}" -project "${{ env.GITHUB_WORKFLOW }}"
           
