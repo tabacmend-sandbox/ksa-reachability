@@ -14,6 +14,7 @@ jobs:
 
       - name: "build project"
         run: mvn clean install -DskipTests=true
+        #run: npm install
 
       - name: "run WS Scan"
         run: |
@@ -23,8 +24,9 @@ jobs:
           export WS_APIKEY=${{ secrets.APIKEY }}
           export WS_USREKEY=${{ secrets.USERKEY }}
           export WS_WSS_URL=https://saas-eu.whitesourcesoftware.com/agent
-          export WS_RESOVEALLDEPENENCIES=false
-          export WS_MAVEN_RESOVEDEPENENCIES=true
+          export WS_RESOVEALLDEPENDENCIES=false
+          export WS_MAVEN_RESOVEDEPENDENCIES=true
+          $export WS_NPM_RESOVEDEPENDENCIES=true
           #nice to have since it is java project
           export WS_INCLUDES="**/*.jar"
           export WS_EXCLUDES="**/*sources.jar **/*javadoc.jar"
