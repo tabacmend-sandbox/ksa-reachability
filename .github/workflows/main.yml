@@ -25,8 +25,8 @@ jobs:
           export WS_USREKEY=${{ secrets.USERKEY }}
           export WS_WSS_URL=https://saas-eu.whitesourcesoftware.com/agent
           export WS_RESOVEALLDEPENDENCIES=false
-          export WS_MAVEN_RESOVEDEPENDENCIES=true
-          $export WS_NPM_RESOVEDEPENDENCIES=true
+          export WS_MAVEN_RESOLVEDEPENDENCIES=true
+          $export WS_NPM_RESOLVEDEPENDENCIES=true
           #nice to have since it is java project
           export WS_INCLUDES="**/*.jar"
           export WS_EXCLUDES="**/*sources.jar **/*javadoc.jar"
