@@ -168,7 +168,7 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-compiler-plugin</artifactId>
-				<version>2.3.2</version>
+				<version>2.5.1</version>
 				<configuration>
 					<source>1.6</source>  <!-- 源代码编写时候的版本 -->
 					<target>1.6</target>  <!-- 编译运行的目标JVM的版本，一般都设置1.6 -->
