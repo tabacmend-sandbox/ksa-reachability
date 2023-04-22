@@ -1,3 +1,6 @@
 {
-  "settingsInheritedFrom": "tabac-ws/whitesource-config@main"
+  "settingsInheritedFrom": "tabacmend-sandbox/whitesource-config@main",
+  "scanSettings":{
+  "enableReachability": true
+  }
 }
